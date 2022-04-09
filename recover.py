@@ -91,7 +91,6 @@ class RECOVER:
             )
             insert into #RECOVER_COHORT (patid)
             SELECT patid from tmp;"""
-        sql = "insert into #RECOVER_COHORT (patid) select patid from recover.dbo.recover_cohort"
         cursor.execute(sql)
         sql = "select count(*) from #RECOVER_COHORT"
         cursor.execute(sql)
