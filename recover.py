@@ -27,7 +27,7 @@ class RECOVER:
         self.ExportPROCEDURES()
         self.ExportVITAL()
         self.CreateTARFile()
-        self.ExportGEOCODE_INPUT()  #example - create input file for geocoding with degauss using lds_address_history; comment out or modify for you site
+        #self.ExportGEOCODE_INPUT()  #example - create input file for geocoding with degauss using lds_address_history; comment out or modify for you site
 
     def db_export(self, tableName, sql):
         logging.info(f'Exporting: {tableName}')

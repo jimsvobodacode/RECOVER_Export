@@ -49,11 +49,11 @@ If not done already, download and install the current version of Python from [py
 ## Usage
 
 1. Modify the config.ini file [mssql] section to point to your CDM database
-2. Modify the config.ini file [general] section to contain your site values
+2. Modify the config.ini file [general] section to contain your site values and output path
 2. Open Powershell in Windows
 3. Navigate to your project directory (ex. ```cd c:\myproject...```)
 4. Run ```python app.py```
-5. When done there will be a file named [site name]\_PCORNET\_CDM\_DD\_MM\_YY.tar
+5. When done there will be a file named [site name]\_PCORNET\_CDM\_DD\_MM\_YY.tar.gz
 6. Upload the .tar file to your AWS Bucket using the AWS CLI
 
 <!-- CONTRIBUTING -->
